@@ -1,0 +1,10 @@
+# Never commit field data (GPS locations of snares / patrols are sensitive)
+data/
+*.gpx
+*.kml
+*.kmz
+*.shp
+*.csv
+*.xlsx
+.DS_Store
+__pycache__/
