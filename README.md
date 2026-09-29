@@ -4,7 +4,6 @@ Code accompanying the preregistration of the Project Mtego field experiment on s
 
 Project Mtego ("snare" in Swahili) studies how snare detection depends on individual experience and how experience combines when patrol members search together. Groups search forest plots containing simulated snares, so the true number and location of snares is known.
 
-Authors: Derry Taylor, Guillaume Dezecache [, Bahador Bahrami]
 
 ## Contents
 
