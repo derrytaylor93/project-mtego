@@ -1,0 +1,25 @@
+=== H1: experience model recovery (solo trials only) ===
+truth M0 k=2 n=400: best ELPD 76% | rule picks truth 8%, wrong 0%, undecided 91%  
+truth M0 k=3 n=400: best ELPD 75% | rule picks truth 8%, wrong 0%, undecided 92%  
+truth M1a k=2 n=400: best ELPD 38% | rule picks truth 2%, wrong 4%, undecided 94%  slope/10y est mean 0.49 (true 0.57) SD 0.23
+truth M1a k=3 n=400: best ELPD 41% | rule picks truth 1%, wrong 2%, undecided 97%  slope/10y est mean 0.51 (true 0.57) SD 0.27
+truth M1b k=2 n=400: best ELPD 39% | rule picks truth 3%, wrong 3%, undecided 94%  E90 median 22.6 (true 15.4), 10-90% 15.6-31.3
+truth M1b k=3 n=400: best ELPD 42% | rule picks truth 3%, wrong 3%, undecided 94%  E90 median 23.0 (true 15.4), 10-90% 14.8-32.4
+
+=== H2: pair benchmark recovery ===
+truth independent  delta=0.0 k=2 n=400: best ELPD 74% | rule picks truth 17%, wrong 1%, undecided 82%
+truth independent  delta=0.0 k=3 n=400: best ELPD 76% | rule picks truth 15%, wrong 0%, undecided 85%
+truth independent  delta=0.5 k=2 n=400: best ELPD 70% | rule picks truth 13%, wrong 0%, undecided 86%
+truth independent  delta=0.5 k=3 n=400: best ELPD 74% | rule picks truth 15%, wrong 1%, undecided 84%
+truth best member  delta=0.0 k=2 n=400: best ELPD 87% | rule picks truth 34%, wrong 0%, undecided 66%
+truth best member  delta=0.0 k=3 n=400: best ELPD 91% | rule picks truth 38%, wrong 0%, undecided 62%
+truth pooled       delta=0.0 k=2 n=400: best ELPD 84% | rule picks truth 24%, wrong 0%, undecided 76%
+truth pooled       delta=0.0 k=3 n=400: best ELPD 87% | rule picks truth 27%, wrong 0%, undecided 73%
+truth pooled       delta=0.5 k=2 n=400: best ELPD 82% | rule picks truth 20%, wrong 0%, undecided 80%
+truth pooled       delta=0.5 k=3 n=400: best ELPD 86% | rule picks truth 26%, wrong 0%, undecided 74%
+
+=== delta precision ===
+d_c k=2: null mean -0.28, SE 0.17; delta=0.5 mean 0.16; detect 0.5: 14% (bias-corrected 75%); false positives at 0: 38%
+d_c k=3: null mean -0.22, SE 0.15; delta=0.5 mean 0.25; detect 0.5: 40% (bias-corrected 88%); false positives at 0: 31%
+d_a k=2: null mean +0.03, SE 0.22; delta=0.5 mean 0.45; detect 0.5: 54% (bias-corrected 48%); false positives at 0: 6%
+d_a k=3: null mean +0.02, SE 0.22; delta=0.5 mean 0.43; detect 0.5: 49% (bias-corrected 47%); false positives at 0: 5%
